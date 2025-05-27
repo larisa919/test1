@@ -1,0 +1,22 @@
+import time
+
+import wrap
+wrap.world.create_world(500,700)
+wrap.sprite.add("mario-enemies",100,100,"mushroom_blue")
+time.sleep(1)
+wrap.sprite.add_text("привет, есть тут кто-нибудь?",250,100,text_color=(255,255,255))
+time.sleep(1)
+wrap.sprite.add("mario-princess",100,300,"princess")
+wrap.sprite.add_text("это я, принцесса",250,300,text_color=(255,255,100))
+time.sleep(1)
+wrap.sprite.add_text("что ты тут делаешь?",250,150,text_color=(200,200,200))
+time.sleep(1)
+wrap.sprite.add_text("ищу дракона",250,350,text_color=(150,150,150))
+time.sleep(1)
+wrap.sprite.add_text("зачем?",250,200,text_color=(0,255,255))
+time.sleep(1)
+wrap.sprite.add_text("хочу его съесть",250,400,text_color=(255,0,255))
+time.sleep(2)
+wrap.sprite.add_text("мне пора",300,230,text_color=(255,255,0))
+time.sleep(1)
+wrap.actions.move_right_to(0,600)
