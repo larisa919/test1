@@ -49,3 +49,4 @@ while True:
 while True:
     wrap.sprite.move(mario,0,10)
     wrap.sprite.set_angle(mario,wrap.sprite.get_angle(mario)+20)
+
